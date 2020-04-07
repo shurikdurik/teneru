@@ -1,0 +1,146 @@
+  
+.header {
+ background-color: tomato;
+ height: 200px;
+ width: 100%;
+ display: block;
+
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 240px;
+}
+
+.logo a {
+    padding-left: 40px;
+}
+
+.nav {
+    width: 70%;
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav ul li {
+    float: left;
+    position: relative;
+    padding-right: 30px;
+}
+ 
+.nav ul li a {
+    padding: 0 20px;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    line-height: 150px;
+}
+
+ul {
+    list-style: none;
+}
+div .logo {
+    height: 200px;
+}
+
+div .nav {
+    height: 200px;
+}
+
+#home {
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    font-family: monospace;
+    font-size: 16px;
+    height: 450px;
+}
+
+#home img {
+    width: 400px;
+    height: 250px;
+}
+
+.nav .dropdown {
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    display: none;
+    background: tomato;
+    font-size: 50%;
+}
+
+.nav .dropdown li {
+    width: 100%;    
+}
+
+.nav .dropdown li a {
+    line-height: 50px;
+}
+
+ul .dropdown {
+    padding: 0; 
+}
+
+.nav li:hover .dropdown {
+    display: block;
+}
+
+.content {
+    background-color: gray;
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    display: inline-flex; 
+}
+
+.excurs {
+    width: 50%;
+}
+
+.img {
+    width: 50%;
+}
+
+.content img {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    padding: 60px;
+}
+
+#teide .excurs {
+    text-align: right;
+    margin: auto;
+}
+
+#teide_north .excurs {
+    text-align: right;
+    margin: auto;
+}
+
+#masca .excurs {
+    text-align: right;
+    margin: auto;
+}
+
+div .footer {
+    display: flex;
+}
+.footer {
+    margin: 20px;
+    justify-content: center;
+}
+button a {
+  transition: color 1s linear;
+}
+button a:hover {
+    color: red;
+}
+
+span {
+    font-weight: bold;
+}
+
